@@ -1,0 +1,27 @@
+body {background-color: yellow;}
+.container
+{
+width: 90%;
+margin-left: auto;
+margin-right: auto;
+}
+img {max-width: 100%;}
+figure
+{
+width: 45%;
+min-width: 200px;
+float: left;
+}
+@media screen and (max-width: 1000px)
+{
+body {background-color: bisque;}
+}
+@media only screen and (max-width : 480px)
+    {
+    body {background-color: red;}
+    }
+    @media only screen and (max-width : 320px)
+    {
+    body {background-color: green;}
+    }
+    
